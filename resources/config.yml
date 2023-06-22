@@ -1,0 +1,20 @@
+---
+# Configuration for The Announcer plugin
+
+# The prefix message
+# Use '&' for colors
+prefix: "&r&8[&aAA&8] "
+
+# enable/disable the use of prefixes.
+# true = on, false = off
+use-prefix: true
+
+# Interval between each message in ticks (20 ticks per second) (Default: 1200 ticks  = 1 minute)
+interval: 1200
+
+# List of messages to be broadcasted
+# Use '&' for colors, Use `\n` to break the line
+messages:
+  - "&r&aWelcome to the server! \n&r&7read /rules!"
+  - "&r&7Enjoy your stay!"
+  - "&r&6Visit our website at www.example.com"

@@ -15,13 +15,13 @@ class AnnouncerCommand extends Command implements PluginOwned {
 
     public function __construct(Announcer $plugin) {
         parent::__construct("announcer", "Reload the Announcer configuration", "/autoannouncer", ["aa"]);
-        $this->setPermission("autoannounce.reload");
+        $this->setPermission("autoannouncer.reload");
         $this->plugin = $plugin;
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args): bool 
     {
-        if(!$sender->hasPermission("autoannounce.reload")) {
+        if(!$sender->hasPermission("autoannouncer.reload")) {
             $sender->sendMessage(TextFormat::RED . "You do not have sufficient permission to use this command!");
             return false;
         }

@@ -5,5 +5,5 @@ version: 0.0.1
 author: Lee1387
 
 permissions:
-  autoannounce.reload:
+  autoannouncer.reload:
     default: op

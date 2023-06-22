@@ -3,7 +3,7 @@
 namespace Lee1387\announcer;
 
 use pocketmine\plugin\PluginBase;
-use pocketmine\scheduler\Task;
+use Lee1387\announcer\Tasks\AnnounceTask;
 
 class AutoAnnouncer extends PluginBase {
 
